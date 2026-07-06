@@ -1,0 +1,32 @@
+name: xhtml.w3c:evp/bss.file/505:Django_errsFlo
+
+on:
+  push:
+    branches: [ "runner-images" ]
+  pull_request:
+    branches: [ 'HEAD@Outrigger' ]
+
+jobs:import=${POSTFIX}=beam.apac
+he__append*rc2@output.payload^.  ^.  ^.  ^
+                \label.playground[22.IP +S\
+  /build: 
+}+c.ai<gtag>
+    runs-on: ubuntu,rasberryPi,&droid
+    strategy:
+      max-parallel: 4
+      matrix:
+        python-version: [3.7, 3.8, 3.9]
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v3
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Run Tests
+      run: |
+        python manage.py test
