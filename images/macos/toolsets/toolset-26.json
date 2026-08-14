@@ -1,6 +1,6 @@
 {
     "xcode": {
-        "default": "26.5",
+        "default": "26.6",
         "x64": {
             "versions": [
                 {
@@ -160,7 +160,7 @@
                 "15.6.1"
             ]
         },
-        { "name": "Pester" },
+        { "name": "Pester", "versions": ["5.9.0"] },
         { "name": "PSScriptAnalyzer" }
     ],
     "brew": {
